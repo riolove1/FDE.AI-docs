@@ -299,5 +299,5 @@
     </plurals>
     <string name="debloat_processing_progress">処理中: %1$d/%2$d</string>
     <string name="debloat_uninstall">アンインストール</string>
-    <string name="debloat_no_apps">ブロートウェア(不要な)アプリはありません。</string>
+    <string name="debloat_no_apps">不要なアプリ(ブロートウェア)はありません。</string>
 </resources>
