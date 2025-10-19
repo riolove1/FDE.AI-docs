@@ -31,7 +31,7 @@
     <string name="arrow_up">上矢印</string>
     <string name="attempt_root">ルート権限の付与を待っています…</string>
     <string name="auto_psave">省電力モード</string>
-    <string name="auto_psave_desc">画面オフ時に省電力モードを自動的に有効にします。</string>
+    <string name="auto_psave_desc">画面オフ時に自動的に省電力モードを有効にします。</string>
     <string name="autostart">自動起動</string>
     <string name="autostart_delay_hint">遅延を %1$d 秒に設定しました</string>
     <string name="autostart_overlay">統計のオーバーレイ表示を開始</string>
@@ -69,7 +69,7 @@
     <string name="description">説明</string>
     <string name="enable_ai">AIを有効化</string>
     <string name="disable_logs">ログを無効化</string>
-    <string name="disable_logs_desc">すべてのログと統計情報(「logcat」を除く)を無効にし、logcatのバッファサイズを128KBに縮小します。</string>
+    <string name="disable_logs_desc">すべてのログと統計情報(logcatを除く)を無効にし、logcatのバッファサイズを128KBに縮小します。</string>
     <string name="downscale_btn">画面幅を変更</string>
     <string name="downscale_desc">GPUのパフォーマンスを向上させ、バッテリーを節約するために画面の解像度を下げます。わずかに画質が悪くなる可能性があります。UIのクラッシュを避けるためにカスタムROM(MIUI、EMUIなど)の画面幅を半分以下にすることはおすすめしません。</string>
     <string name="warning_no">いいえ</string>
@@ -95,27 +95,27 @@
     <string name="forum" tools:ignore="MissingTranslation,TypographyDashes">https://xdaforums.com/t/app-6-0-root-fde-ai-v23-08-3-powerful-aio-android-devices-optimizer-12-08-2023.4055657/</string>
     <string name="fps_checkbox">ハードウェアモニタリングとFPS</string>
     <string name="fps_meter_desc">リアルタイムでFPS、CPU、GPU、RAM、および電力使用量の統計を表示します。</string>
-    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$s FPS</string>
-    <string name="overlay_frame_time" tools:ignore="MissingTranslation">%1$s ms</string>
-    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$s Hz</string>
-    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$s MHz</string>
-    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$s MB</string>
+    <string name="overlay_avg_fps" tools:ignore="MissingTranslation">平均: %1$sFPS</string>
+    <string name="overlay_frame_time" tools:ignore="MissingTranslation">%1$sms</string>
+    <string name="overlay_hz" tools:ignore="MissingTranslation">%1$sHz</string>
+    <string name="overlay_mhz" tools:ignore="MissingTranslation">%1$sMHz</string>
+    <string name="overlay_mb" tools:ignore="MissingTranslation">%1$sMB</string>
     <string name="get_premium">FDE.AIプレミアムを購入</string>
     <string name="go_back">戻る</string>
     <string name="overlay_gpu_x_load" tools:ignore="MissingTranslation">GPU: %1$s%%</string>
     <string name="grantit">OS起動後にFDE.AIを起動させるには、OSの権限マネージャーで自動起動を許可する必要がある場合があります。</string>
-    <string name="greenbattery_desc">最大充電レベルを制限することでバッテリー寿命を延ばします。定義された閾値で充電を停止し、そこから6%低下すると再開します。</string>
+    <string name="greenbattery_desc">最大充電レベルを制限することでバッテリー寿命を延ばします。定義されたしきい値で充電を停止し、そこから6%低下すると再開します。</string>
     <string name="hour">時間</string>
     <string name="join_forum">XDA</string>
     <string name="just_battery">バッテリー</string>
     <string name="just_ram">RAM</string>
     <string name="just_storage">ストレージ</string>
-    <string name="killbgapps_desc">スリープ時にバックグラウンドアプリを自動的に強制終了します。</string>
+    <string name="killbgapps_desc">画面がオフのときにバックグラウンドアプリを自動的に終了します。</string>
     <string name="killbgapps_title">バックグラウンドアプリを強制終了</string>
     <string name="light_theme">ライト</string>
     <string name="link_open_error" tools:ignore="MissingTranslation">リンクを開くことができません</string>
     <string name="links">リンク</string>
-    <string name="log_saved">ログは /sdcard/fde.md に保存されました。</string>
+    <string name="log_saved">ログは [/sdcard/fde.md] に保存しました。</string>
     <string name="low_power_fps">低電力FPS</string>
     <string name="low_power_fps_short_desc">目標のFPSを設定 - CPU/GPUの周波数を下げてFPSを維持し、電力を節約します。</string>
     <string name="mem_available_x" tools:ignore="MissingTranslation">利用可能: %1$s</string>
@@ -142,14 +142,14 @@
     <string name="onboarding_preset_adaptive_title">自動調整</string>
     <string name="onboarding_preset_off_summary">微調整は適用されません。ツールのみがすぐに利用可能になります</string>
     <string name="onboarding_preset_off_title">なし</string>
-    <string name="onboarding_preset_performance_summary">微調整を適用し、AIを調整してパフォーマンスと応答性を向上させます</string>
+    <string name="onboarding_preset_performance_summary">微調整を適用し、AIによる調整でパフォーマンスと応答性を向上させます</string>
     <string name="onboarding_preset_performance_title">パフォーマンス</string>
-    <string name="onboarding_preset_powersave_summary">微調整を適用し、AIを調整してバッテリーの節約と発熱を抑制します。</string>
+    <string name="onboarding_preset_powersave_summary">微調整を適用し、AIによる調整でバッテリーの節約と発熱を抑制します</string>
     <string name="onboarding_preset_powersave_title">省電力</string>
     <string name="onboarding_presets">プリセット</string>
     <string name="onboarding_see_full_eula">利用規約の全文を表示</string>
     <string name="onboarding_setup">設定</string>
-    <string name="onboarding_setup_message">適用する微調整を選択します。初期設定の完了後に設定を変更することもできます。</string>
+    <string name="onboarding_setup_message">適用する微調整を選択してください。初期設定の完了後に設定を変更することもできます。</string>
     <string name="onboarding_eula_summary_4">FDE.AIと一緒に他の最適化アプリやモジュールなどを使用しないでください。</string>
     <string name="onboarding_migrate_data">古いバージョンが検出されました</string>
     <string name="open_os_dev_settings">Androidの開発者設定を開く</string>
@@ -164,7 +164,7 @@
     <string name="premium_card_overlays_desc">FPSメーターを含む様々なステータスのオーバーレイ表示をカスタマイズできます。</string>
     <string name="premium_card_profiles">拡張アプリプロファイル</string>
     <string name="premium_card_profiles_desc">多くのオプションを備えたカスタマイズ可能なアプリプロファイルです。</string>
-    <string name="premium_text">FDE.AIの開発をサポートし、すべての独自機能のロックを解除しましょう！</string>
+    <string name="premium_text">FDE.AIの開発を支援し、すべての独自機能のロックを解除しましょう！</string>
     <string name="premium_thanks">ご支援ありがとうございます！以下の機能をアンロックしました。</string>
     <string name="overlay_ram_x_percent" tools:ignore="MissingTranslation">RAM: %1$s%%</string>
     <string name="rate_app">FDE.AIを評価</string>
@@ -186,7 +186,7 @@
     <string name="profiles_btn">アプリのプロファイル</string>
     <string name="profiles_descr_txt">カスタムプロファイルは、アプリが実行されたときにFDE.AIの設定が適用され、閉じたときに元に戻します。</string>
     <string name="sound_header">サウンド</string>
-    <string name="start_toast">FDE.AIを起動中…</string>
+    <string name="start_toast">FDE.AIを起動しています…</string>
     <string name="start_awaiting_timeout" tools:ignore="PluralsCandidate">FDE.AIが起動するまであと %1$d 秒お待ちください…</string>
     <string name="startup">起動</string>
     <string name="stop_btn">停止</string>
@@ -198,12 +198,12 @@
     <string name="throttling_ignore_charging">充電を無視</string>
     <string name="throttling_system_desc">スロットリングは、CPU/GPUの周波数を低下させることで過熱を防ぎます。</string>
     <string name="tiktok" tools:ignore="MissingTranslation">https://www.tiktok.com/@feralab</string>
-    <string name="un_fde_magisk">FDE.AIのMagiskモジュールを最初にアンインストールしてください！</string>
+    <string name="un_fde_magisk">最初に、FDE.AIのMagiskモジュールをアンインストールしてください！</string>
     <string name="unavailable">利用不可</string>
     <string name="update">更新</string>
     <string name="update_available">新しいバージョンが利用可能です！</string>
     <string name="updating_toast">更新をダウンロード中…</string>
-    <string name="vibration">一度だけ振動させる</string>
+    <string name="vibration">一度だけ振動</string>
     <string name="warning_header">警告</string>
     <string name="welcome">ようこそ！</string>
     <string name="youtube" tools:ignore="MissingTranslation">https://www.youtube.com/@FeraLab</string>
@@ -215,10 +215,10 @@
     <string name="sound_channel_name">AIのサウンド通知</string>
     <string name="reset_app_list_confirmation_title">リストをリセット</string>
     <string name="reset_app_list_confirmation_text">アプリ一覧をリセットしますか？</string>
-    <string name="downscale_notification" tools:ignore="PluralsCandidate">「OK」をタップして新しい解像度を確認するか、 %1$d 秒後にリセットされます。</string>
+    <string name="downscale_notification" tools:ignore="PluralsCandidate">[OK] をタップして新しい解像度を確認するか、 %1$d 秒後にリセットされます。</string>
     <string name="onboarding_migrate_data_description">データを移行しますか？</string>
     <string name="kernel_block">現在のカーネル「%1$s」はプレミアムのインストールをブロックします。別のカーネルのインストールを検討してください。</string>
-    <string name="profile_ai_mode_desc">アプリ使用時のAIモードを選択します。</string>
+    <string name="profile_ai_mode_desc">アプリ使用時のAIモードを選択してください。</string>
     <string name="preload_pro_required">この機能を使用するには「Preload」のProバージョンが必要です。</string>
     <string name="overlay_power_x">電力: %1$s mAh</string>
     <string name="overlay_battery_temp_x">バッテリー: %1$s°C</string>
@@ -260,8 +260,8 @@
     <string name="autopowersave_mode">自動で電力を節約</string>
     <string name="autodatasave_mode">自動でデータ通信量を節約</string>
     <string name="memory_boost_support">メモリブースト</string>
-    <string name="root_mode_descr">すべての機能。ルート権限が必要です。</string>
-    <string name="shizuku_mode_descr">機能は制限されますが、ルート権限は不要です。Android 7以上、Shizukuアプリが必要です。</string>
+    <string name="root_mode_descr">すべての機能が利用できます。ルート権限が必要です。</string>
+    <string name="shizuku_mode_descr">利用できる機能は制限されますが、ルート権限は必要ありません。Android 7以降、Shizukuアプリが必要です。</string>
     <string name="lets_go">実行</string>
     <string name="shizuku_setup_success">Shizukuのセットアップが完了し、準備完了です</string>
     <string name="shizuku_setup_instructions_title">セットアップ手順</string>
@@ -270,13 +270,13 @@
     <string name="shizuku_warning_miui_description">MIUIユーザーは、Shizukuが適切に動作するために追加の開発者権限を有効にする必要があります。</string>
     <string name="shizuku_install_from_play_store">Playストアからインストール</string>
     <string name="shizuku_open_app">Shizukuアプリを開く</string>
-    <string name="shizuku_setup_step_1">Shizukuをインストール</string>
-    <string name="shizuku_setup_step_2">アプリでShizukuサービスを有効化</string>
-    <string name="shizuku_setup_step_3">プロンプトが表示されたら権限を付与</string>
+    <string name="shizuku_setup_step_1">Shizukuをインストールする</string>
+    <string name="shizuku_setup_step_2">アプリでShizukuサービスを有効にする</string>
+    <string name="shizuku_setup_step_3">プロンプトが表示されたら権限を付与する</string>
     <string name="shizuku_setup_step_4">セットアップを続行するためにFDE.AIに戻る</string>
-    <string name="shizuku_broken_connection">エラー: ADBとの接続が切断されました。Shizukuサービスを再起動してください。</string>
+    <string name="shizuku_broken_connection">エラー: ADB接続が切断されました。Shizukuサービスを再起動してください。</string>
     <string name="just_check">確認</string>
-    <string name="dontkillmyapp_text">現在、Shizukuモードを使用しています。アプリの動作を安定させるため、ShizukuとFDE.AIの自動終了を無効にしてください。設定方法を確認したいですか？</string>
+    <string name="dontkillmyapp_text">Shizukuモードを使用しています。アプリの動作を安定させるため、ShizukuとFDE.AIの自動終了を無効にしてください。設定方法を確認しますか？</string>
     <string name="burnit_btn">スロットリングを無効化</string>
     <string name="already_premium">すでにプレミアムをお持ちですか？</string>
     <string name="already_premium_txt">すでにプレミアムパッケージを購入しているが、FDE.AIがそれを検出しない場合は、次の手順に従ってください:\n\n1. 公式ソースから正規のFDE.AIアプリをダウンロードし、MD5ハッシュを確認してください。\n
@@ -286,18 +286,18 @@
 5. デバイスを再起動してください。\n
 6. FDE.AIとプレミアムパッケージをインストールしてください。\n\n
 問題が解決しない場合は、Telegramで開発者にお問い合わせください。</string>
-    <string name="wifi_psave_header">Wi-Fi スリープモードを無効にする</string>
-    <string name="wifi_psave_descr">Shizuku との通信が切断される可能性を減らすために、Wi-Fi スリープモードを無効にすることもできますが、これによりアイドル時の消費電力が増加する可能性があります。</string>
-    <string name="downscale_warning">何か問題が発生し、「リセット」ボタンにアクセスできない場合は、デバイスを再起動しないでください。代わりに、ADBシェルに接続して、次のコマンドを入力してください: \'adb shell wm size reset;wm concentration reset\'。</string>
-    <string name="shizuku_warning_systemless_description_new">非ルートモードでは、システムに永続的な影響を与える操作が行われる可能性があります。\n\nこのアプリをアンインストールする場合は、事前にアプリ内でFDE.AIの設定をリセットしてください。</string>
-    <string name="debloat_title">不要なプリインストールアプリを無効化</string>
-    <string name="debloat_descr">ここでは、不要なシステムアプリ（ブロートウェア）を無効化して端末を高速化できます。下には Universal Debloater Alliance による推奨の無効化リストが表示されます。</string>
+    <string name="wifi_psave_header">WiFiスリープモードを無効化</string>
+    <string name="wifi_psave_descr">Shizukuとの接続が切断される可能性を減らすために、WiFiスリープモードを無効にすることもできますが、これによりアイドル時の電力消費が増加する可能性があります。</string>
+    <string name="downscale_warning">何か問題が発生し、[リセット] ボタンにアクセスできない場合は、デバイスを再起動しないでください。代わりに、ADBシェルに接続して次のコマンドを入力してください: 「adb shell wm size reset;wm density reset」</string>
+    <string name="shizuku_warning_systemless_description_new">非ルートモードでは、システムに永続的な影響を与えるアクションが実行される可能性があります。\n\nこのアプリをアンインストールする場合は、事前にアプリ内のFDE.AI設定をリセットしてください。</string>
+    <string name="debloat_title">ブロートウェアを無効化</string>
+    <string name="debloat_descr">ここでは、ブロートウェアとみなされる一部のシステムアプリを無効にして、システムを高速化できます。以下は、Universal Debloater Allianceが推奨する削除推奨アプリの一覧です。</string>
     <string name="select_all">すべて選択</string>
     <string name="clear_selection">選択をクリア</string>
     <plurals name="debloat_apply_confirm_text">
-        <item quantity="other">%1$d 個のアプリに変更を適用しますか？</item>
+        <item quantity="other">%1$d個のアプリに変更を適用しますか？</item>
     </plurals>
     <string name="debloat_processing_progress">処理中: %1$d/%2$d</string>
     <string name="debloat_uninstall">アンインストール</string>
-    <string name="debloat_no_apps">不要なアプリはありません。</string>
+    <string name="debloat_no_apps">ブロートウェア(不要な)アプリはありません。</string>
 </resources>
